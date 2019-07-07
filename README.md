@@ -1,6 +1,6 @@
 # TriviaGame
 
-The final product can be found here: https://mrterranova.github.io/TriviaGame/  
+The final product can be found here: 
 
 ________________________________________________________________________________
 
