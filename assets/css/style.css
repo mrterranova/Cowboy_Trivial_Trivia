@@ -18,9 +18,10 @@ body {
 
 h1 {
     text-align: center;
+    margin-left: 30%;
     font-family: RioGrande;
     font-size: 70px;
-    text-shadow: 4px 4px silver;
+    text-shadow: 7px 7px burlywood;
 }
 
 h2 {
@@ -31,12 +32,12 @@ h2 {
 h3 {
     letter-spacing: 1px;
     font-family: Western;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 
 #questionaire {
-    margin-left: 25%;
+    margin-left: 30%;
     text-align: center;
     max-width: 700px;
 }
@@ -50,6 +51,7 @@ h3 {
     color: white;
     padding:23px;
     text-decoration: none;
+    margin-top: 30px;
 }
 
 #complete:hover {
@@ -69,8 +71,22 @@ h3 {
     text-decoration: none;
 }
 
-#secondsRemaining {
-    position: fixed;
-    margin-left: 60%;
-    margin-top: -17%;
+#restart {
+    background-color: black;
+    color: white;
+    padding:23px;
+    text-decoration: none;
+}
+
+#restart:hover {
+    background-color: crimson;
+    color: black;
+    text-decoration: none;
+}
+
+.userInput {
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    margin-bottom: 30px;
 }
