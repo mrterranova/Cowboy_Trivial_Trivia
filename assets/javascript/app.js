@@ -41,8 +41,16 @@ var questions = [
   }];
 
 $('#startGame').on('click', function () {
-
+  $('.game').css("display", "none");
   trivia.start();
+});
+
+$('#btnQuest').on('click', function() {
+  console.log("hello");
+  trivia.userName = $('.userName').val()
+  console.log(trivia.userName);
+  $('.hidden').css("display", "none");
+  $('#theName').text(trivia.userName);
 });
 
 var trivia = {
@@ -58,16 +66,13 @@ var trivia = {
     if (trivia.counter <= 10) {
       console.log($('#counter'));
       $('#counter').css("color", "red");
+      $('#counter').css("position", "fixed");
+      $('#counter').css("size", "60px");
     }
 
   if (trivia.counter <= 0) {
       trivia.completed();
     }
-    if ($('#btnQuest').on('click', function() {
-      console.log("hello");
-      userName = $('.userName').val()
-      console.log(userName);
-    }));
 
     if ($('#complete').on('click', function () {
       trivia.completed();
@@ -108,7 +113,7 @@ var trivia = {
         }
       });
     }
-    // Calculate results
+    // Tabulate results
 
     this.result();
   },
@@ -116,11 +121,12 @@ var trivia = {
   result: function () {
     $('.leftImg').css("overflow","hidden");
     $('.leftImg').css("height", "170%");
-    clearInterval(timer);
+    clearInterval(timer);    
     $('#questionaire h2').remove();
-
     if (trivia.correct >= 6) {
-      $('#questionaire').html('<h2 class="results">Looks like there\'s a new sheriff in town!</h2> <br> <img src="assets/images/q8.gif" alt="high"><br>').addClass('finished');
+        $('#questionaire').html('<h2 class="results">Looks like there\'s a new sheriff in town!</h2> <br> <img src="assets/images/q8.gif" alt="high"><br>').addClass('finished');
+        $('#questionaire').append('<img class = "sheriffBadge" src="assets/images/badge.png">');
+        $('#questionaire').append('<h2 class="nameAttach1">'+trivia.userName+'</h2>');
     }
     else if (trivia.correct >= 4) {
       $('#questionaire').html('<h2 class="results">Better Luck Next Time, Cowboy!</h2> <br> <img src="assets/images/q2.gif" alt="mid"><br>').addClass('finished');
@@ -133,7 +139,6 @@ var trivia = {
     // display all the Unanswered questions
     $('#questionaire').append("<h3 class='results'>Questions You Didn't Round Up: " + (questions.length - (this.incorrect + this.correct)) + "<h3>");
     $('#questionaire').append('<br><button id="restart" class="restart-btn" type="button" name="button-restart">Do it Again?</button>').appendTo('#questionaire');
-
 
     $('#restart').on('click', function () {
       $('#restart, .results').remove();
