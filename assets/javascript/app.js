@@ -66,8 +66,7 @@ var trivia = {
     if (trivia.counter <= 10) {
       console.log($('#counter'));
       $('#counter').css("color", "red");
-      $('#counter').css("position", "fixed");
-      $('#counter').css("size", "60px");
+      $('#counter').css("size", "70px");
     }
 
   if (trivia.counter <= 0) {
