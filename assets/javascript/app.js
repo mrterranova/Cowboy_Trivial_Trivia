@@ -155,7 +155,7 @@ var trivia = {
 
 }
 var obj = document.createElement("audio");
-obj.src = "../assets/audio/whistle.mp3";
+obj.src = "../audio/whistle.mp3";
 obj.volume = 0.1;
 obj.autoPlay = false;
 obj.preLoad = true;
