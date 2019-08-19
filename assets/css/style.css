@@ -5,7 +5,7 @@
 body {
     background-image: url("../images/texture-wooden-boards_1249-169.jpg");
     background-repeat: repeat-y;
-    background-size: 100%;
+    background-size: 110%;
     
 }
 
@@ -148,4 +148,57 @@ h3 {
 .poster {
     position: absolute;
     z-index: 2;
+}
+#tumbleWeed {
+    position: fixed;
+    max-height:110px;
+    margin-top: 40%;
+    left:-10%;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 20s infinite;
+    animation-delay: 2s;
+}
+@-webkit-keyframes example {
+    0%   {left: -10%;}
+    70% {left:-10%;transform: rotate(0deg);}
+    74% {margin-top: 40%;}
+    75% {margin-top:38%;}
+    76% {margin-top:40%}
+    79% {margin-top:40%;}
+    80% {margin-top:38.5%;}
+    81% {margin-top:40%}
+    90% {margin-top:40%;}
+    91% {margin-top:39.5%;}
+    92% {margin-top:40%}
+    100% {left:110%;transform: rotate(1000deg);}
+  }
+  
+  /* Standard syntax */
+  @keyframes example {
+    0%   {left: -10%;}
+    70% {left:-10%;transform: rotate(0deg);}
+    74% {margin-top: 40%;}
+    75% {margin-top:38%;}
+    76% {margin-top:40%}
+    79% {margin-top:40%;}
+    80% {margin-top:38.5%;}
+    81% {margin-top:40%}
+    90% {margin-top:40%;}
+    91% {margin-top:39.5%;}
+    92% {margin-top:40%}
+    100% {left:110%;transform: rotate(1000deg);}
+  }
+@media only screen and (max-width: 694px){
+    .left{
+        display:none;
+    }
+    #questionaire {
+        margin-left: 10%;
+    }
+    h1 {
+        margin-left: 10%;
+    }
 }
