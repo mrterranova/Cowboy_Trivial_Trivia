@@ -185,7 +185,9 @@ h3 {
   
   /* Standard syntax */
   @keyframes example {
+
     0%   {left: -10%;}
+    
     70% {left:-10%;transform: rotate(0deg);}
     74% {margin-top: 40%;}
     75% {margin-top:38%;}
@@ -200,7 +202,7 @@ h3 {
   }
 
 @media only screen and (max-width: 694px){
-    
+
     .left{
         display:none;
     }
