@@ -27,4 +27,9 @@ _____________________________________________________________________
 
 * This is a trivia quiz based on the Wild West. It's a bunch of random facts that are probably very obscured and honestly pointless. 
 
+* This project includes three different "levels" someone can obtain. 
+        0-3 points will give the user the lowest level.
+        4-6 points will give the user a good work.
+        7-10 points will give the user a badge for their efforts. 
+
 * 
