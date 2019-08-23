@@ -36,4 +36,5 @@ _____________________________________________________________________
 
 * Used css properties to hide overflow of images, also added css animations to the bottom.
 
-* Includes the use of music in assignment.
+* Includes the use of music in assignment. 
+    -   credits: "The Theme to the Good, the Bad, and the Ugly"
