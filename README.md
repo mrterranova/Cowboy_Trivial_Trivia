@@ -35,3 +35,5 @@ _____________________________________________________________________
 * Their is a timer that reflects a timer. The numbers will begin to turn red upon the 10 second countdown.
 
 * Used css properties to hide overflow of images, also added css animations to the bottom.
+
+* Includes the use of music in assignment.
