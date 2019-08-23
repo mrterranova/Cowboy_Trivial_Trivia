@@ -82,7 +82,7 @@ var trivia = {
   start: function () {
     $('.leftImg').css("overflow","visible");
     timer = setInterval(trivia.countDown, 1000);
-    $('#questionaire').prepend('<h2 id="secondsRemaining">Time Remaining: <span id="counter">90</span> Seconds</h2>');
+    $('#questionaire').prepend('<h2 id="secondsRemaining">Time Ya Got Left: <span id="counter">90</span> Seconds</h2>');
     $('#startGame, .triva').remove();
     for (var i = 0; i < questions.length; i++) {
       $('#questionaire').append('<br><h3>' + questions[i].question + '</h3>')
