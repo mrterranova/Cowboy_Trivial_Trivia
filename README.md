@@ -22,4 +22,6 @@ In this assignment, You'll create a Trivia game using JavaScript for the logic a
 * Don't forget to include a countdown timer.
 
 _____________________________________________________________________
-The trivia quiz created contains 8 questions about the wild west. 
+
+This is a trivia quiz based on the Wild West. It's a bunch of random facts that are probably very obscured and honestly pointless. 
+
