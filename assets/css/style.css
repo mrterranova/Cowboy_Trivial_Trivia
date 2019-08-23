@@ -1,14 +1,15 @@
+/* custom fonts found on dafont.com */
 @font-face { font-family: RioGrande; src: url('RioGrande/RioGrande.ttf'); } 
 @font-face { font-family: Western; src: url('WEST/WEST____.TTF'); } 
 
-
+/* Adding image to span across the entire background */
 body {
     background-image: url("../images/texture-wooden-boards_1249-169.jpg");
     background-repeat: repeat-y;
     background-size: 110%;
-    
 }
 
+/* images of to the left */
 .left {
     float: left;
     max-height:100%;
@@ -20,6 +21,7 @@ body {
     font-size: 30px;
 }
 
+/* code that appears in quiz later */
 .hidden {
     background-color: grey;
     color: black;
@@ -187,7 +189,7 @@ h3 {
   @keyframes example {
 
     0%   {left: -10%;}
-    
+
     70% {left:-10%;transform: rotate(0deg);}
     74% {margin-top: 40%;}
     75% {margin-top:38%;}
