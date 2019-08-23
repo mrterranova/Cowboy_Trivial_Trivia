@@ -21,7 +21,7 @@ body {
     font-size: 30px;
 }
 
-/* code that appears in quiz later */
+/* wording/quiz code that appears in quiz later */
 .hidden {
     background-color: grey;
     color: black;
@@ -52,7 +52,7 @@ h3 {
     font-size: 27px;
 }
 
-
+/* placement of questions on the page */
 #questionaire {
     margin-left: 30%;
     text-align: center;
