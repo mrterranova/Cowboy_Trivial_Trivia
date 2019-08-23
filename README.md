@@ -23,5 +23,8 @@ In this assignment, You'll create a Trivia game using JavaScript for the logic a
 
 _____________________________________________________________________
 
-This is a trivia quiz based on the Wild West. It's a bunch of random facts that are probably very obscured and honestly pointless. 
+### My Project
 
+* This is a trivia quiz based on the Wild West. It's a bunch of random facts that are probably very obscured and honestly pointless. 
+
+* 
