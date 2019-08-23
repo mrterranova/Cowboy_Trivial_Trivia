@@ -1,3 +1,4 @@
+// questions object
 var questions = [
   {
     question: "What is the name for the legendary shootout in which 8 lawmen and outlaws fought one another in Tombstone, Arizona Territory?",
@@ -30,9 +31,9 @@ var questions = [
     goodAnswer: "Wild Horses"
   },
   {
-    question: "Alice Ivers, became known as ‘Poker Alice’ after moving West in 1865 and becoming quite well known for her skills in poker. Where was she born originally?",
-    choices: ["Virginia", "England", "Mexico", "Ohio"],
-    goodAnswer: "England"
+    question: "What were the first true 'cowboys' called?",
+    choices: ["Vaqueros", "Cow-hands", "Cowboys", "Hombre"],
+    goodAnswer: "Vaqueros"
   },
   {
     question: "Wild Bill Hickock was amongst the legendary gunfighters in the West. Legend has it that because of his love for the game of poker he died with what 4 cards in his hands which became known as the ‘Dead Man’s Hand’?",
