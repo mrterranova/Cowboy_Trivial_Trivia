@@ -90,7 +90,7 @@ var trivia = {
         $('#questionaire').append("<div class ='userInput'><input class='button' type='radio' name='q" + i + "' value='" + questions[i].choices[j] + "'>" + questions[i].choices[j] + " </button></div>");
       }
     }
-    $('<br><br><button id="complete" class="completed-btn" type="button" name="button-completed">Finished Quiz</button>').appendTo('#questionaire');
+    $('<br><br><button id="complete" class="completed-btn" type="button" name="button-completed">FINISHED</button>').appendTo('#questionaire');
   
     $("#complete").click(function () {
       obj.pause();
