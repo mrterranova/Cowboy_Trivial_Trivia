@@ -1,4 +1,6 @@
-# TriviaGame
+# Cowboy Trivial Trivia Quiz
+
+
 
 The final product can be found here: https://mrterranova.github.io/TriviaGame/
 
