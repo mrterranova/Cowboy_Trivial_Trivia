@@ -22,10 +22,9 @@ Welcome to Cowboy Trivial Trivia. Here we ask you the most trivial questions abo
     -   credits: "The Theme to the Good, the Bad, and the Ugly"
 
 ## Technology
-* momentJS
 * jQuery
 * CSS
-* Javascript
+* Javascript with setInterval for Timer
 * HTML
 
 ##Deploy Project
