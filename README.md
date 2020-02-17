@@ -2,7 +2,7 @@
 
 
 
-The final product can be found here: https://mrterranova.github.io/TriviaGame/
+The final product can be found here: https://mrterranova.github.io/Cowboy_Trivial_Trivia/
 ________________________________________________________________________________
 Welcome to Cowboy Trivial Trivia. Here we ask you the most trivial questions about the old west to determine your dedication to all those history classes that you've taken. The old West, steeped in myths and tall tells, has a lot of fiction added to their stories. You be the one to set the record straight.
 
