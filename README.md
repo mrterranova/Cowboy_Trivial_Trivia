@@ -27,6 +27,6 @@ Welcome to Cowboy Trivial Trivia. Here we ask you the most trivial questions abo
 * Javascript with setInterval for Timer
 * HTML
 
-##Deploy Project
+## Deploy Project
 For this project you can fork and clone the project to a local repository. 
 After open in a program that runs javascript such as sublime or VS Code. 
